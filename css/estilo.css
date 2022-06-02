@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/*MIXIN*/
+body h1 {
+  color: #8c1919;
+  background-color: #f8f1e8;
+  font-size: 50px;
+  text-align: center; }
+
+body a {
+  text-decoration: none;
+  color: black; }
+
+body ul {
+  color: black;
+  background-color: #f8f1e8;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px; }
+
+body .fondo {
+  background-image: url(../img/pexels-nextvoyage-1476880.jpg);
+  height: 800px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 30px;
+  margin-bottom: 50px; }
+
+div p {
+  padding: 10px;
+  margin: 10px; }
+
+div .extend, div .label {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: left;
+  font-size: 20px;
+  color: white; }
+
+div .label {
+  font-weight: bold;
+  padding: 10px; }
+
+/* MAPS*/
+h2 {
+  color: blue; }
+
+h3 {
+  color: red; }
+
+h4 {
+  color: #342f2f; }
+
+body footer {
+  background-color: #e69a9a;
+  display: flex;
+  justify-content: space-around;
+  padding: 40px; }

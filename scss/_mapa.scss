@@ -1,0 +1,21 @@
+/* MAPS*/
+
+$footer: (facebook: blue, instagram: red, google: rgb(52, 47, 47));
+
+$facebook: map-get($footer,facebook);
+$instagram: map-get($footer, instagram);
+$google: map-get($footer, google);
+
+h2 {
+    color: $facebook;
+}
+
+h3 {
+    color: $instagram;
+}
+
+h4 {
+    color: $google;
+}
+
+
