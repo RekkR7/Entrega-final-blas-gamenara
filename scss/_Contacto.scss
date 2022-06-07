@@ -1,0 +1,80 @@
+body {
+    .section {
+        padding: 1rem 8rem;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .form {
+        margin: auto;
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .borderNone {
+        border: none;
+    }
+
+    fieldset {
+        padding: 0.35em 0.75em 0.625em;
+    }
+
+    .formLegend {
+        text-align: center;
+        color: #333;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .input {
+        margin-bottom: 1rem;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .inputLabel {
+        display: block;
+        color: #333;
+        font-size: 22px;
+        margin-bottom: .5rem;
+        font-weight: bold;
+    }
+
+    .inputText {
+        width: 100%;
+        background-color: $color-header;
+        padding: 1rem;
+        border: 1px solid rgb(180, 180, 180);
+        font-size: 20px;
+    }
+
+    .buttonText {
+        font-size: 22px;
+        color: #333;
+    }
+
+    .boton {
+        justify-content: space-between;
+        margin: 1rem auto;
+        height: 3rem;
+        width: 30%;
+        border: 2px solid rgb(180, 180, 180);
+    }
+
+    button,input {
+        overflow: visible;
+    }
+
+    @media (max-width: 425px) {
+        .section {
+            padding: 1rem 1rem;
+        }
+        .boton {
+            width: 40%;
+        }
+    
+    }
+    
+}

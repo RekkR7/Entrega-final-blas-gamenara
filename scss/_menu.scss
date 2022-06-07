@@ -1,67 +1,150 @@
 /*MIXIN*/
 
-@mixin estiloFuente($color, $fuenteSize){
+@mixin estiloFuente($color, $fuenteSize) {
     color: $color;
-    background-color: rgb(248, 241, 232);
+    background-color: rgb(230, 230, 230);
     font-size: $fuenteSize;
 }
 
+/*HEADER*/
+
 body {
+    padding-top: 120px;
 
-    h1 {
-        @include estiloFuente(rgb(140, 25, 25), 50px);
-        text-align: center;
-        
-    }
-
-    a {
-       text-decoration: none;
-       color: black;
-    }
-    
-    ul {
-        @include estiloFuente (black,20px);
-        display: flex;
-        justify-content: space-around;
-        padding: 20px;
-    }
-
-    .fondo {
-        background-image: url(../img/pexels-nextvoyage-1476880.jpg);
-        height: 800px;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding: 50px 30px;
-        margin-bottom: 50px;
-    }
-    
-}
-
-div {
-
-    p {
-        padding: 10px;
-        margin: 10px;
-    }
-
-    .extend {
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        text-align: left;
+    header {
+       
+        background: $color-header;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 26px;
         font-size: 20px;
-        color: white;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+
+        .container {
+            width: 85%;
+            max-width: 850px;
+            margin: 0 auto;
+        }
+
+
+        a {
+            text-decoration: none;
+            color: $color-font;
+            transition: all 0.5s linear;
+            
+        }
+
+        a:hover {
+            color: white;
+        }
+
+        .logoContainer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .navMenu ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+
+        }
+
+        .navMenu ul li {
+            display: inline-block;
+
+        }
+
+        .navMenu ul li a {
+            display: block;
+            padding: 0.5rem 0;
+            transition: all 0.5s linear;
+
+        }
+
+        .navMenu ul li a:hover {
+            color: white;
+        }
+
+
     }
 
-    .label {
-        @extend .extend;
-        font-weight: bold;
-        padding: 10px;
+    @media (max-width: 425px) {
+        header .navMenu {
+            flex-direction: row;
+            padding-bottom: 0;
+        }
+
+        a {
+            text-align: center;
+        }
+        .lisa a{
+            flex-direction: row;
+        }
+        .row {
+            margin-top: 0;
+        }
     }
 
+    .row {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    div {
+        .whatsapp {
+            width: 50px;
+            position: fixed;
+            bottom: 20px;
+            right: 10px;
+        }
+    }
 
 }
 
 
 
+// h1 {
+//     @include estiloFuente(rgb(140, 25, 25), 50px);
+//     text-align: center;
 
+// }
+
+// a {
+//    text-decoration: none;
+//    color: black;
+// }
+
+// ul {
+//     @include estiloFuente (black,20px);
+//     display: flex;
+//     justify-content: space-around;
+//     padding: 20px;
+// }
+
+
+
+// div {
+
+
+//     .extend {
+//         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+//         text-align: left;
+//         font-size: 20px;
+//         color: white;
+//     }
+
+//     .label {
+//         @extend .extend;
+//         font-weight: bold;
+//         padding: 10px;
+//     }
+
+
+// }

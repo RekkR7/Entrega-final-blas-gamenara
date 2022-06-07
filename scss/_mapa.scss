@@ -1,21 +1,20 @@
 /* MAPS*/
 
-$footer: (facebook: blue, instagram: red, google: rgb(52, 47, 47));
+$letraSize: (h5:22px, h5Color:#333, p:16px, align:center);
 
-$facebook: map-get($footer,facebook);
-$instagram: map-get($footer, instagram);
-$google: map-get($footer, google);
+$h5: map-get($letraSize, h5);
+$p: map-get($letraSize, p);
+$align: map-get($letraSize, align);
+$h5Color: map-get($letraSize, h5Color);
 
-h2 {
-    color: $facebook;
+div h5 {
+    font-size: $h5;
+    text-align: $align;
+    color: $h5Color;
 }
 
-h3 {
-    color: $instagram;
+div p {
+    font-size: $p;
+    text-align: $align;
+    color: $h5Color;
 }
-
-h4 {
-    color: $google;
-}
-
-
