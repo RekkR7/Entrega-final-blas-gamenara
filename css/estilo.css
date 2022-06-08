@@ -24,6 +24,8 @@ body {
       text-decoration: none;
       color: #333;
       transition: all 0.5s linear; }
+    body header b {
+      font-size: 30px; }
     body header a:hover {
       color: white; }
     body header .logoContainer {
