@@ -14,7 +14,6 @@ body {
 
         .container {
             width: 85%;
-            max-width: 850px;
             margin: 0 auto;
 
         }
@@ -34,11 +33,15 @@ body {
         }
 
         .logoContainer {
-            display: flex;
+            display: inline-flex;
             justify-content: space-between;
             align-items: center;
             flex-wrap: wrap;
         }
+
+       .navItem {
+           padding-right: 10px;
+       }
 
         .navMenu ul {
             margin: 0;
@@ -86,15 +89,6 @@ body {
     .row {
         margin-right: 0;
         margin-left: 0;
-    }
-
-    div {
-        .whatsapp {
-            width: 50px;
-            position: fixed;
-            bottom: 20px;
-            right: 10px;
-        }
     }
 
 }
