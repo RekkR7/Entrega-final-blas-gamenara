@@ -20,11 +20,17 @@ body {
 
         li {
             display: inline-flex;
-            padding-left: 25px;
-                     
+            padding-left: 20px;
         }
 
-
-
+        
     }
+
+    @media (max-width: 901px) {
+        .divFooter {
+            display: inline-block;
+            padding-left: 60px;
+        }
+    }
+
 }

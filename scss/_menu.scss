@@ -66,29 +66,69 @@ body {
 
 
     }
-
-    @media (max-width: 425px) {
-        header .navMenu {
-            flex-direction: row;
-            padding-bottom: 0;
+    
+    @media (max-width: 340px) {
+        .row  {
+            padding-top: 120px;
         }
 
-        a {
-            text-align: center;
-        }
-
-        .lisa a {
-            flex-direction: row;
-        }
-
-        .row {
-            margin-top: 0;
+        ul{ 
+            font-size: 18px;
         }
     }
 
+    @media (min-width: 341px) and (max-width: 570px) {
+        .row {
+            padding-top: 80px;
+        }
+
+        ul {
+            font-size: 18px;
+        }
+    }
+
+    @media (min-width: 571px) and (max-width: 767px) {
+        .row {
+            padding-top: 40px;
+        }
+
+        ul {
+            font-size: 18px;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 900px) {
+        ul {
+            display: inline-flex;
+            font-size: 18px;
+        }
+        .container {
+            --bs-gutter-x: 1.5rem;
+            --bs-gutter-y: 0;
+        }
+    }
+
+    @media (min-width: 901px){
+        ul {
+            display: inline-flex;
+        }
+        .container {
+            --bs-gutter-x: 1.5rem;
+            --bs-gutter-y: 0;
+        }
+    }
+
+
+
+
+
+
+
     .row {
+        background: $background;
         margin-right: 0;
         margin-left: 0;
+        margin-bottom: 20px;
     }
 
 }

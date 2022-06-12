@@ -41,19 +41,39 @@ body {
       transition: all 0.5s linear; }
     body header .navMenu ul li a:hover {
       color: white; }
-  @media (max-width: 425px) {
-    body header .navMenu {
-      flex-direction: row;
-      padding-bottom: 0; }
-    body a {
-      text-align: center; }
-    body .lisa a {
-      flex-direction: row; }
+  @media (max-width: 340px) {
     body .row {
-      margin-top: 0; } }
+      padding-top: 120px; }
+    body ul {
+      font-size: 18px; } }
+  @media (min-width: 341px) and (max-width: 570px) {
+    body .row {
+      padding-top: 80px; }
+    body ul {
+      font-size: 18px; } }
+  @media (min-width: 571px) and (max-width: 767px) {
+    body .row {
+      padding-top: 40px; }
+    body ul {
+      font-size: 18px; } }
+  @media (min-width: 768px) and (max-width: 900px) {
+    body ul {
+      display: inline-flex;
+      font-size: 18px; }
+    body .container {
+      --bs-gutter-x: 1.5rem;
+      --bs-gutter-y: 0; } }
+  @media (min-width: 901px) {
+    body ul {
+      display: inline-flex; }
+    body .container {
+      --bs-gutter-x: 1.5rem;
+      --bs-gutter-y: 0; } }
   body .row {
+    background: #fafafa;
     margin-right: 0;
-    margin-left: 0; }
+    margin-left: 0;
+    margin-bottom: 20px; }
 
 /* MAPS aplicados en el main del index */
 div h5 {
@@ -88,7 +108,12 @@ body footer {
     font-weight: bold; }
   body footer li {
     display: inline-flex;
-    padding-left: 25px; }
+    padding-left: 20px; }
+
+@media (max-width: 901px) {
+  body .divFooter {
+    display: inline-block;
+    padding-left: 60px; } }
 
 body .section {
   padding: 1rem 8rem;
@@ -147,10 +172,19 @@ body button, body input {
   overflow: visible; }
 
 @media (max-width: 425px) {
+  body section .form {
+    padding-top: 90px; }
+  body .formLegend {
+    font-size: 24px; }
+  body .inputLabel {
+    font-size: 18px; }
+  body .inputText {
+    font-size: 16px; }
   body .section {
-    padding: 1rem 1rem; }
+    padding: 1rem; }
   body .boton {
-    width: 40%; } }
+    font-size: 18px;
+    width: 45%; } }
 
 body section .whatsapp {
   width: 50px;
