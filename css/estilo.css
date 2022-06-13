@@ -92,6 +92,14 @@ body div .card-body a {
 body div a .card-widht {
   width: 200px; }
 
+.card-img-top {
+  opacity: 80%;
+  transition: .5s ease;
+  backface-visibility: hidden; }
+
+.card-img-top:hover {
+  opacity: 100%; }
+
 body footer {
   background-color: #f2f2f2;
   padding: 20px;
@@ -204,3 +212,6 @@ body section .whatsapp {
 
 .gridContainer img:hover {
   transform: scale(1.02); }
+
+.galeriaItem {
+  border-radius: 10px; }

@@ -30,3 +30,13 @@ body {
         width: 200px;
     }
 }
+
+.card-img-top {
+    opacity: 80%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.card-img-top:hover {
+    opacity: 100%;
+}
