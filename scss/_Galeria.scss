@@ -1,22 +1,29 @@
+body {
 
-.gridContainer {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
+    .gridContainer {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+        margin-right: 13px;
+        margin-left: 13px;
+    }
+    
+    .gridContainer img {
+        width: 100%;
+        margin-top: 10px;
+        transition: all 300ms;
+    }
+    
+    .gridContainer img:hover {
+        transform: scale(1.02);
+    }
+    
+    
+    .galeriaItem  {
+        border-radius: 10px;
+    }   
+
+
 }
 
-.gridContainer img {
-    width: 100%;
-    margin-top: 10px;
-    transition: all 300ms;
-}
-
-.gridContainer img:hover {
-    transform: scale(1.02);
-}
-
-
-.galeriaItem  {
-    border-radius: 10px;
-}   
 

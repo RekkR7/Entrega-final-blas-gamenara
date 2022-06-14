@@ -1,231 +1,253 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Fotoblog · Retratos</title>
-    <!-- CSS -->
-    <link rel="stylesheet" href="../css/estilo.css">
-    <!-- ICONO -->
-    <link rel="icon" href="../img/005camera2_113732.png">
-    <!-- ANIMACION -->
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <!-- METAS -->
-    <meta name="description" content="En esta sección vas a poder encontrar todo tipo de retratos">
-    <meta name="keywords" content="Paisajes, Retratos, Abstracto, Blanco & Negro, Contacto, whatsapp, Inicio">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Fotoblog · Retratos</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="../css/estilo.css">
+  <!-- ICONO -->
+  <link rel="icon" href="../img/005camera2_113732.png">
+  <!-- ANIMACION -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- METAS -->
+  <meta name="description" content="En esta sección vas a poder encontrar todo tipo de retratos">
+  <meta name="keywords" content="Paisajes, Retratos, Abstracto, Blanco & Negro, Contacto, whatsapp, Inicio">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
+
 <body>
-    <!-- HEADER -->
-    <header class="header">
-        <div class="container logoContainer">
-            <a href="../index.html" class="animate__animated animate__headShake"><b>Mi Fotoblog</b></a>
-            <nav class="navMenu">
-                <ul>
-                    <li class="navItem"><a href="../index.html">Inicio</a></li>
-                    <li class="navItem"><a href="./Abstracto.html">Abstracto</a></li>
-                    <li class="navItem"><a href="./B&N.html">B&N</a></li>
-                    <li class="navItem"><a href="./Paisajes.html">Paisajes</a></li>
-                    <li class="navItem"><a href="./Retratos.html">Retratos</a></li>
-                    <li class="navItem"><a href="./Contacto.html">Contacto</a></li>
-                    
-                </ul>       
-            </nav>
-        </div>
-    </header>
+  <!-- HEADER BOOSTRAP-->
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand animate__animated animate__headShake" href="../index.html">
+        <img class="logo" src="../img/005camera2_113732.png" alt="inicio"><b>Mi Fotoblog</b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Galeria
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="./Abstracto.html">Abstracto</a></li>
+              <li><a class="dropdown-item" href="./B&N.html">B&N</a></li>
+              <li><a class="dropdown-item" href="./Paisajes.html">Paisajes</a></li>
+              <li><a class="dropdown-item" href="./Retratos.html">Retratos</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-    <!-- INICIO DE MAIN -->
+  <!-- INICIO DE MAIN -->
 
-    <div class="gridContainer">
-        <div class="gridItem">
-            <div class="galeriaImagenes">
-                <a href="../img/Retratos/pexels-anastasia-ilinamakarova-12083783.jpg" target="_blank">
-                    <img src="../img/Retratos/pexels-anastasia-ilinamakarova-12083783.jpg" alt="imagen" class="galeriaItem">
-                </a>
-            </div>
+  <div class="gridContainer">
+    <div class="gridItem">
+      <div class="galeriaImagenes">
+        <a href="../img/Retratos/pexels-anastasia-ilinamakarova-12083783.jpg" target="_blank">
+          <img src="../img/Retratos/pexels-anastasia-ilinamakarova-12083783.jpg" alt="imagen" class="galeriaItem">
+        </a>
+      </div>
 
-            <div class="galeriaImagenes">
-                <a href="../img/Retratos/pexels-andrea-piacquadio-839011.jpg" target="_blank">
-                    <img src="../img/Retratos/pexels-andrea-piacquadio-839011.jpg" alt="imagen" class="galeriaItem">
-                </a>
-            </div>
+      <div class="galeriaImagenes">
+        <a href="../img/Retratos/pexels-andrea-piacquadio-839011.jpg" target="_blank">
+          <img src="../img/Retratos/pexels-andrea-piacquadio-839011.jpg" alt="imagen" class="galeriaItem">
+        </a>
+      </div>
 
-            <div class="galeriaImagenes">
-                <a href="../img/Retratos/pexels-andrew-personal-training-733500.jpg" target="_blank">
-                    <img src="../img/Retratos/pexels-andrew-personal-training-733500.jpg" alt="imagen" class="galeriaItem">
-                </a>
-            </div>
+      <div class="galeriaImagenes">
+        <a href="../img/Retratos/pexels-andrew-personal-training-733500.jpg" target="_blank">
+          <img src="../img/Retratos/pexels-andrew-personal-training-733500.jpg" alt="imagen" class="galeriaItem">
+        </a>
+      </div>
 
-            <div class="galeriaImagenes">
-                <a href="../img/Retratos/pexels-arsham-haghani-3429877.jpg" target="_blank">
-                    <img src="../img/Retratos/pexels-arsham-haghani-3429877.jpg" alt="imagen" class="galeriaItem">
-                </a>
-            </div>
+      <div class="galeriaImagenes">
+        <a href="../img/Retratos/pexels-arsham-haghani-3429877.jpg" target="_blank">
+          <img src="../img/Retratos/pexels-arsham-haghani-3429877.jpg" alt="imagen" class="galeriaItem">
+        </a>
+      </div>
 
-            <div class="galeriaImagenes">
-                <a href="../img/Retratos/pexels-caique-silva-1975342.jpg" target="_blank"><img
-                        src="../img/Retratos/pexels-caique-silva-1975342.jpg" alt="imagen" class="galeriaItem"></a>
-
-
-            </div>
-            <div class="galeriaImagenes">
-                <a href="../img/Retratos/pexels-craig-chitima-6778636.jpg" target="_blank"><img
-                        src="../Retratos/pexels-craig-chitima-6778636.jpg" alt="imagen" class="galeriaItem"></a>
-
-
-            </div>
-            <div class="galeriaImagenes">
-                <a href="../img/Retratos/pexels-edu-carvalho-2050994.jpg" target="_blank"><img
-                        src="../img/Retratos/pexels-edu-carvalho-2050994.jpg" alt="imagen" class="galeriaItem"></a>
-
-
-            </div>
-            <div class="galeriaImagenes">
-                <a href="../img/Retratos/pexels-ekaterina-belinskaya-4923036.jpg" target="_blank"><img
-                        src="../img/Retratos/pexels-ekaterina-belinskaya-4923036.jpg" alt="imagen" class="galeriaItem"></a>
+      <div class="galeriaImagenes">
+        <a href="../img/Retratos/pexels-caique-silva-1975342.jpg" target="_blank"><img
+            src="../img/Retratos/pexels-caique-silva-1975342.jpg" alt="imagen" class="galeriaItem"></a>
 
 
-            </div>
-            <div class="galeriaImagenes">
-                <a href="../img/Retratos/pexels-darina-belonogova-8764955.jpg" target="_blank"><img
-                        src="../img/Retratos/pexels-darina-belonogova-8764955.jpg" alt="imagen" class="galeriaItem"></a>
+      </div>
+      <div class="galeriaImagenes">
+        <a href="../img/Retratos/pexels-craig-chitima-6778636.jpg" target="_blank"><img
+            src="../Retratos/pexels-craig-chitima-6778636.jpg" alt="imagen" class="galeriaItem"></a>
 
 
-            </div>
-
-        </div>
-
-        <div class="columnasGaleria">
-            <div class="galeriaImagenes">
-                <a href="../img/Retratos/pexels-elina-fairytale-6202149.jpg" target="_blank"><img
-                        src="../img/Retratos/pexels-elina-fairytale-6202149.jpg" alt="imagen"
-                        class="galeriaItem"></a>
+      </div>
+      <div class="galeriaImagenes">
+        <a href="../img/Retratos/pexels-edu-carvalho-2050994.jpg" target="_blank"><img
+            src="../img/Retratos/pexels-edu-carvalho-2050994.jpg" alt="imagen" class="galeriaItem"></a>
 
 
-            </div>
-
-            <div class="galeriaImagenes">
-                <a href="../img/Retratos/pexels-engin-akyurt-1441151.jpg" target="_blank"><img
-                        src="../img/Retratos/pexels-engin-akyurt-1441151.jpg" alt="imagen" class="galeriaItem"></a>
-
-
-            </div>
-            <div class="galeriaImagenes">
-                <a href="../img/Retratos/pexels-engin-akyurt-1559193.jpg" target="_blank"><img
-                        src="../img/Retratos/pexels-engin-akyurt-1559193.jpg" alt="imagen" class="galeriaItem"></a>
+      </div>
+      <div class="galeriaImagenes">
+        <a href="../img/Retratos/pexels-ekaterina-belinskaya-4923036.jpg" target="_blank"><img
+            src="../img/Retratos/pexels-ekaterina-belinskaya-4923036.jpg" alt="imagen" class="galeriaItem"></a>
 
 
-            </div>
-
-            <div class="galeriaImagenes">
-                <a href="../img/Retratos/pexels-jayson-hinrichsen-11921866.jpg" target="_blank"><img
-                        src="../img/Retratos/pexels-jayson-hinrichsen-11921866.jpg" alt="imagen" class="galeriaItem"></a>
-
-
-            </div>
-            <div class="galeriaImagenes">
-                <a href="../img/Retratos/pexels-lola-russian-1855582.jpg" target="_blank"><img
-                        src="../img/Retratos/pexels-lola-russian-1855582.jpg" alt="imagen" class="galeriaItem"></a>
+      </div>
+      <div class="galeriaImagenes">
+        <a href="../img/Retratos/pexels-darina-belonogova-8764955.jpg" target="_blank"><img
+            src="../img/Retratos/pexels-darina-belonogova-8764955.jpg" alt="imagen" class="galeriaItem"></a>
 
 
-            </div>
-            
-            <div class="galeriaImagenes">
-                <a href="../img/Retratos/pexels-moises-besada-9688839.jpg" target="_blank"><img
-                        src="../img/Retratos/pexels-moises-besada-9688839.jpg" alt="imagen" class="galeriaItem"></a>
+      </div>
+
+    </div>
+
+    <div class="columnasGaleria">
+      <div class="galeriaImagenes">
+        <a href="../img/Retratos/pexels-elina-fairytale-6202149.jpg" target="_blank"><img
+            src="../img/Retratos/pexels-elina-fairytale-6202149.jpg" alt="imagen" class="galeriaItem"></a>
 
 
-            </div>
-            <div class="galeriaImagenes">
-                <a href="../img/Retratos/pexels-muhammadtaha-ibrahim-ma'aji-10050903.jpg" target="_blank"><img
-                        src="../img/Retratos/pexels-muhammadtaha-ibrahim-ma'aji-10050903.jpg" alt="imagen" class="galeriaItem"></a>
+      </div>
+
+      <div class="galeriaImagenes">
+        <a href="../img/Retratos/pexels-engin-akyurt-1441151.jpg" target="_blank"><img
+            src="../img/Retratos/pexels-engin-akyurt-1441151.jpg" alt="imagen" class="galeriaItem"></a>
 
 
-            </div>
-            <div class="galeriaImagenes">
-                <a href="../img/Retratos/pexels-moose-photos-1036627.jpg" target="_blank"><img
-                        src="../img/Retratos/pexels-moose-photos-1036627.jpg" alt="imagen" class="galeriaItem"></a>
+      </div>
+      <div class="galeriaImagenes">
+        <a href="../img/Retratos/pexels-engin-akyurt-1559193.jpg" target="_blank"><img
+            src="../img/Retratos/pexels-engin-akyurt-1559193.jpg" alt="imagen" class="galeriaItem"></a>
 
 
-            </div>
-            
+      </div>
+
+      <div class="galeriaImagenes">
+        <a href="../img/Retratos/pexels-jayson-hinrichsen-11921866.jpg" target="_blank"><img
+            src="../img/Retratos/pexels-jayson-hinrichsen-11921866.jpg" alt="imagen" class="galeriaItem"></a>
 
 
-        </div>
-
-        <div class="columnasGaleria">
-            <div class="galeriaImagenes">
-                <a href="../img/Retratos/pexels-pexels-user-11917981.jpg" target="_blank"><img
-                        src="../img/Retratos/pexels-pexels-user-11917981.jpg" alt="imagen" class="galeriaItem"></a>
+      </div>
+      <div class="galeriaImagenes">
+        <a href="../img/Retratos/pexels-lola-russian-1855582.jpg" target="_blank"><img
+            src="../img/Retratos/pexels-lola-russian-1855582.jpg" alt="imagen" class="galeriaItem"></a>
 
 
-            </div>
-            <div class="galeriaImagenes">
-                <a href="../img/Retratos/pexels-tima-miroshnichenko-6204673.jpg" target="_blank"><img
-                        src="../img/Retratos/pexels-tima-miroshnichenko-6204673.jpg" alt="imagen" class="galeriaItem"></a>
+      </div>
+
+      <div class="galeriaImagenes">
+        <a href="../img/Retratos/pexels-moises-besada-9688839.jpg" target="_blank"><img
+            src="../img/Retratos/pexels-moises-besada-9688839.jpg" alt="imagen" class="galeriaItem"></a>
 
 
-            </div>
-            <div class="galeriaImagenes">
-                <a href="../img/Retratos/pexels-алексей-вечерин-9563665.jpg" target="_blank"><img
-                        src="../img/Retratos/pexels-алексей-вечерин-9563665.jpg" alt="imagen" class="galeriaItem"></a>
+      </div>
+      <div class="galeriaImagenes">
+        <a href="../img/Retratos/pexels-muhammadtaha-ibrahim-ma'aji-10050903.jpg" target="_blank"><img
+            src="../img/Retratos/pexels-muhammadtaha-ibrahim-ma'aji-10050903.jpg" alt="imagen" class="galeriaItem"></a>
 
 
-            </div>
-            <div class="galeriaImagenes">
-                <a href="../img/Retratos/pexels-collis-3031397.jpg" target="_blank"><img
-                        src="../img/Retratos/pexels-collis-3031397.jpg" alt="imagen" class="galeriaItem"></a>
+      </div>
+      <div class="galeriaImagenes">
+        <a href="../img/Retratos/pexels-moose-photos-1036627.jpg" target="_blank"><img
+            src="../img/Retratos/pexels-moose-photos-1036627.jpg" alt="imagen" class="galeriaItem"></a>
 
 
-            </div>
-            <div class="galeriaImagenes">
-                <a href="../img/Retratos/pexels-cottonbro-7170720.jpg" target="_blank"><img
-                        src="../img/Retratos/pexels-cottonbro-7170720.jpg" alt="imagen" class="galeriaItem"></a>
+      </div>
 
-
-            </div>
-            <div class="galeriaImagenes">
-                <a href="../img/Retratos/pexels-noelle-otto-906052.jpg" target="_blank"><img
-                        src="../img/Retratos/pexels-noelle-otto-906052.jpg" alt="imagen" class="galeriaItem"></a>
-
-
-            </div>
-            <div class="galeriaImagenes">
-                <a href="../img/Retratos/pexels-rene-asmussen-25758.jpg" target="_blank"><img
-                        src="../img/Retratos/pexels-rene-asmussen-25758.jpg" alt="imagen" class="galeriaItem"></a>
-
-
-            </div>
-            <div class="galeriaImagenes">
-                <a href="../img/Retratos/pexels-ezekixl-akinnewu-1006227.jpg" target="_blank"><img
-                        src="../img/Retratos/pexels-ezekixl-akinnewu-1006227.jpg" alt="imagen" class="galeriaItem"></a>
-
-
-            </div>
-            <div class="galeriaImagenes">
-                <a href="../img/Retratos/pexels-andrea-piacquadio-774909.jpg" target="_blank"><img
-                        src="../img/Retratos/pexels-andrea-piacquadio-774909.jpg" alt="imagen" class="galeriaItem"></a>
-
-
-            </div>
-            <div class="galeriaImagenes">
-                <a href="../img/Retratos/pexels-tima-miroshnichenko-6550120.jpg" target="_blank"><img
-                        src="../img/Retratos/pexels-tima-miroshnichenko-6550120.jpg" alt="imagen" class="galeriaItem"></a>
-
-
-            </div>
-            
-        </div>
-            
-        </div>
 
 
     </div>
 
+    <div class="columnasGaleria">
+      <div class="galeriaImagenes">
+        <a href="../img/Retratos/pexels-pexels-user-11917981.jpg" target="_blank"><img
+            src="../img/Retratos/pexels-pexels-user-11917981.jpg" alt="imagen" class="galeriaItem"></a>
 
 
-    
+      </div>
+      <div class="galeriaImagenes">
+        <a href="../img/Retratos/pexels-tima-miroshnichenko-6204673.jpg" target="_blank"><img
+            src="../img/Retratos/pexels-tima-miroshnichenko-6204673.jpg" alt="imagen" class="galeriaItem"></a>
+
+
+      </div>
+      <div class="galeriaImagenes">
+        <a href="../img/Retratos/pexels-алексей-вечерин-9563665.jpg" target="_blank"><img
+            src="../img/Retratos/pexels-алексей-вечерин-9563665.jpg" alt="imagen" class="galeriaItem"></a>
+
+
+      </div>
+      <div class="galeriaImagenes">
+        <a href="../img/Retratos/pexels-collis-3031397.jpg" target="_blank"><img
+            src="../img/Retratos/pexels-collis-3031397.jpg" alt="imagen" class="galeriaItem"></a>
+
+
+      </div>
+      <div class="galeriaImagenes">
+        <a href="../img/Retratos/pexels-cottonbro-7170720.jpg" target="_blank"><img
+            src="../img/Retratos/pexels-cottonbro-7170720.jpg" alt="imagen" class="galeriaItem"></a>
+
+
+      </div>
+      <div class="galeriaImagenes">
+        <a href="../img/Retratos/pexels-noelle-otto-906052.jpg" target="_blank"><img
+            src="../img/Retratos/pexels-noelle-otto-906052.jpg" alt="imagen" class="galeriaItem"></a>
+
+
+      </div>
+      <div class="galeriaImagenes">
+        <a href="../img/Retratos/pexels-rene-asmussen-25758.jpg" target="_blank"><img
+            src="../img/Retratos/pexels-rene-asmussen-25758.jpg" alt="imagen" class="galeriaItem"></a>
+
+
+      </div>
+      <div class="galeriaImagenes">
+        <a href="../img/Retratos/pexels-ezekixl-akinnewu-1006227.jpg" target="_blank"><img
+            src="../img/Retratos/pexels-ezekixl-akinnewu-1006227.jpg" alt="imagen" class="galeriaItem"></a>
+
+
+      </div>
+      <div class="galeriaImagenes">
+        <a href="../img/Retratos/pexels-andrea-piacquadio-774909.jpg" target="_blank"><img
+            src="../img/Retratos/pexels-andrea-piacquadio-774909.jpg" alt="imagen" class="galeriaItem"></a>
+
+
+      </div>
+      <div class="galeriaImagenes">
+        <a href="../img/Retratos/pexels-tima-miroshnichenko-6550120.jpg" target="_blank"><img
+            src="../img/Retratos/pexels-tima-miroshnichenko-6550120.jpg" alt="imagen" class="galeriaItem"></a>
+
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  </div>
+
+
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+  </script>
 </body>
+
 </html>

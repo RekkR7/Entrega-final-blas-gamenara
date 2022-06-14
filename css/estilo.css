@@ -1,79 +1,54 @@
-body {
-  padding-top: 120px; }
-  body header {
-    background: #e4e4e4;
-    font-family: "Times New Roman", Times, serif;
-    padding: 26px;
-    font-size: 22px;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    z-index: 1000; }
-    body header .container {
-      width: 85%;
-      margin: 0 auto; }
-    body header a {
-      text-decoration: none;
-      color: #333;
-      transition: all 0.5s linear; }
-    body header b {
-      font-size: 30px; }
-    body header a:hover {
-      color: white; }
-    body header .logoContainer {
-      display: inline-flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap; }
-    body header .navItem {
-      padding-right: 10px; }
-    body header .navMenu ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      text-decoration: none; }
-    body header .navMenu ul li {
-      display: inline-block; }
-    body header .navMenu ul li a {
-      display: block;
-      padding: 0.5rem 0;
-      transition: all 0.5s linear; }
-    body header .navMenu ul li a:hover {
-      color: white; }
-  @media (max-width: 340px) {
-    body .row {
-      padding-top: 120px; }
-    body ul {
-      font-size: 18px; } }
-  @media (min-width: 341px) and (max-width: 570px) {
-    body .row {
-      padding-top: 80px; }
-    body ul {
-      font-size: 18px; } }
-  @media (min-width: 571px) and (max-width: 767px) {
-    body .row {
-      padding-top: 40px; }
-    body ul {
-      font-size: 18px; } }
-  @media (min-width: 768px) and (max-width: 900px) {
-    body ul {
-      display: inline-flex;
-      font-size: 18px; }
-    body .container {
-      --bs-gutter-x: 1.5rem;
-      --bs-gutter-y: 0; } }
-  @media (min-width: 901px) {
-    body ul {
-      display: inline-flex; }
-    body .container {
-      --bs-gutter-x: 1.5rem;
-      --bs-gutter-y: 0; } }
-  body .row {
-    background: #fafafa;
-    margin-right: 0;
-    margin-left: 0;
-    margin-bottom: 20px; }
+body .bg-light {
+  background-color: #e4e4e4 !important;
+  margin-bottom: 15px;
+  padding: 15px; }
+
+body .container-fluid {
+  font-family: "Times New Roman", Times, serif; }
+
+body .navbar-brand {
+  font-size: 30px;
+  color: #333; }
+
+body .navbar-nav {
+  --bs-nav-link-color: none;
+  color: #333;
+  font-size: 22px;
+  margin-left: auto; }
+
+body .nav-link:hover {
+  color: #aa4b6b; }
+
+body .navbar-nav .nav-link.active {
+  color: #333; }
+
+body .navbar-nav .nav-link.active:hover {
+  color: #aa4b6b; }
+
+body .dropdown-item {
+  color: #333; }
+
+body .dropdown-item:hover {
+  background-color: #aa4b6b2c; }
+
+body .logo {
+  width: 50px; }
+
+body b {
+  margin-left: 20px;
+  transition: all 0.5s linear; }
+
+body b:hover {
+  color: #aa4b6b; }
+
+@media (max-width: 600px) {
+  body b {
+    display: none; } }
+
+body .row {
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 20px; }
 
 /* MAPS aplicados en el main del index */
 div h5 {
@@ -129,7 +104,6 @@ body .section {
 
 body .form {
   margin: auto;
-  padding: 1rem;
   width: 100%; }
 
 body .borderNone {
@@ -180,8 +154,21 @@ body button, body input {
   overflow: visible; }
 
 @media (max-width: 425px) {
-  body section .form {
-    padding-top: 90px; }
+  body .formLegend {
+    font-size: 24px; }
+  body .inputLabel {
+    font-size: 18px; }
+  body .inputText {
+    font-size: 16px; }
+  body .section {
+    padding: 1rem; }
+  body .boton {
+    font-size: 18px;
+    width: 45%; }
+  body section .whatsapp {
+    display: none; } }
+
+@media (min-width: 426px) and (max-width: 800px) {
   body .formLegend {
     font-size: 24px; }
   body .inputLabel {
@@ -194,24 +181,26 @@ body button, body input {
     font-size: 18px;
     width: 45%; } }
 
-body section .whatsapp {
+section .whatsapp {
   width: 50px;
   position: fixed;
   bottom: 20px;
   right: 10px; }
 
-.gridContainer {
+body .gridContainer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px; }
+  grid-gap: 10px;
+  margin-right: 13px;
+  margin-left: 13px; }
 
-.gridContainer img {
+body .gridContainer img {
   width: 100%;
   margin-top: 10px;
   transition: all 300ms; }
 
-.gridContainer img:hover {
+body .gridContainer img:hover {
   transform: scale(1.02); }
 
-.galeriaItem {
+body .galeriaItem {
   border-radius: 10px; }

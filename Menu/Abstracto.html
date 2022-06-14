@@ -16,26 +16,46 @@
     <!-- METAS -->
     <meta name="description" content="En esta sección vas a poder encontrar ejemplos muy interesantes sobre fotografía abstracta.">
     <meta name="keywords" content="Paisajes, Retratos, Abstracto, Blanco & Negro, Contacto, whatsapp, Inicio">
+    <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
-<body>
-    <!-- HEADER -->
-    <header class="header">
-        <div class="container logoContainer">
-            <a href="../index.html" class="animate__animated animate__headShake"><b>Mi Fotoblog</b></a>
-            <nav class="navMenu">
-                <ul>
-                    <li class="navItem"><a href="../index.html">Inicio</a></li>
-                    <li class="navItem"><a href="./Abstracto.html">Abstracto</a></li>
-                    <li class="navItem"><a href="./B&N.html">B&N</a></li>
-                    <li class="navItem"><a href="./Paisajes.html">Paisajes</a></li>
-                    <li class="navItem"><a href="./Retratos.html">Retratos</a></li>
-                    <li class="navItem"><a href="./Contacto.html">Contacto</a></li>
-                    
-                </ul>       
-            </nav>
-        </div>
 
-    </header>
+<body>
+    <!-- HEADER BOOSTRAP-->
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand animate__animated animate__headShake" href="../index.html">
+        <img class="logo" src="../img/005camera2_113732.png" alt="inicio"><b>Mi Fotoblog</b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Galeria
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="./Abstracto.html">Abstracto</a></li>
+              <li><a class="dropdown-item" href="./B&N.html">B&N</a></li>
+              <li><a class="dropdown-item" href="./Paisajes.html">Paisajes</a></li>
+              <li><a class="dropdown-item" href="./Retratos.html">Retratos</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
 
 
     <div class="gridContainer">
@@ -221,5 +241,11 @@
 
 
     </div>
+
+
+     <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+</script>
 </body>
 </html>
