@@ -1,5 +1,0 @@
-Se agrego un map usando map-get.
-Se agrego un extend y mixin
-
-Se agregaron los meta para las keywords y description.
-keywords agregadas: "SASS 2, HTML, CSS"
