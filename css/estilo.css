@@ -98,88 +98,81 @@ body footer {
     display: inline-block;
     padding-left: 60px; } }
 
-body .section {
-  padding: 1rem 8rem;
-  font-family: "Times New Roman", Times, serif; }
-
-body .form {
-  margin: auto;
-  width: 100%; }
-
-body .borderNone {
-  border: none; }
-
-body fieldset {
-  padding: 0.35em 0.75em 0.625em; }
-
-body .formLegend {
-  text-align: center;
-  color: #333;
-  font-size: 30px;
-  font-weight: bold; }
-
-body .input {
-  margin-bottom: 1rem; }
-
-body .buttons {
-  display: flex;
-  flex-direction: row; }
-
-body .inputLabel {
-  display: block;
-  color: #333;
-  font-size: 22px;
-  margin-bottom: .5rem;
-  font-weight: bold; }
-
-body .inputText {
-  width: 100%;
-  background-color: #e4e4e4;
-  padding: 1rem;
-  border: 1px solid #b4b4b4;
-  font-size: 20px; }
-
-body .buttonText {
-  font-size: 22px;
-  color: #333; }
-
-body .boton {
-  justify-content: space-between;
-  margin: 1rem auto;
-  height: 3rem;
-  width: 30%;
-  border: 2px solid #b4b4b4; }
-
-body button, body input {
-  overflow: visible; }
-
-@media (max-width: 425px) {
-  body .formLegend {
-    font-size: 24px; }
-  body .inputLabel {
-    font-size: 18px; }
-  body .inputText {
-    font-size: 16px; }
+body {
+  /*Botonera*/ }
   body .section {
-    padding: 1rem; }
-  body .boton {
-    font-size: 18px;
-    width: 45%; }
-  body section .whatsapp {
-    display: none; } }
-
-@media (min-width: 426px) and (max-width: 800px) {
+    padding: 1rem 8rem;
+    font-family: "Times New Roman", Times, serif; }
+  body h4 {
+    font-size: 20px;
+    color: #4d4d4d;
+    text-align: center; }
+  body .form {
+    margin: auto;
+    width: 100%; }
+  body .borderNone {
+    border: none; }
+  body fieldset {
+    padding: 0.35em 0.75em 0.625em; }
   body .formLegend {
-    font-size: 24px; }
+    text-align: center;
+    color: #333;
+    font-size: 30px;
+    font-weight: bold; }
+  body .input {
+    margin-bottom: 1rem; }
+  body .buttons {
+    display: flex;
+    flex-direction: row; }
   body .inputLabel {
-    font-size: 18px; }
+    display: block;
+    color: #333;
+    font-size: 22px;
+    margin-bottom: .5rem;
+    font-weight: bold; }
   body .inputText {
-    font-size: 16px; }
-  body .section {
-    padding: 1rem; }
+    width: 100%;
+    background-color: #e4e4e4;
+    padding: 1rem;
+    border: 1px solid #b4b4b4;
+    font-size: 20px; }
+  body .buttonText {
+    font-size: 22px;
+    color: #333; }
   body .boton {
-    font-size: 18px;
-    width: 45%; } }
+    justify-content: space-between;
+    margin: 1rem auto;
+    height: 3rem;
+    width: 30%;
+    border: 2px solid #b4b4b4; }
+  body button, body input {
+    overflow: visible; }
+  @media (max-width: 425px) {
+    body .formLegend {
+      font-size: 24px; }
+    body .inputLabel {
+      font-size: 18px; }
+    body .inputText {
+      font-size: 16px; }
+    body .section {
+      padding: 1rem; }
+    body .boton {
+      font-size: 18px;
+      width: 45%; }
+    body section .whatsapp {
+      display: none; } }
+  @media (min-width: 426px) and (max-width: 800px) {
+    body .formLegend {
+      font-size: 24px; }
+    body .inputLabel {
+      font-size: 18px; }
+    body .inputText {
+      font-size: 16px; }
+    body .section {
+      padding: 1rem; }
+    body .boton {
+      font-size: 18px;
+      width: 45%; } }
 
 section .whatsapp {
   width: 50px;
